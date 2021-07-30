@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- report theme -->
+        <!-- standard, dark -->
+        <theme>standard</theme>
+    
+        <!-- document encoding -->
+        <!-- defaults to UTF-8 -->
+        <encoding>ISO-8859-1</encoding>
+        
+        <!-- protocol for script and stylesheets -->
+        <!-- defaults to https -->
+        <protocol>https</protocol>
+        
+        <!-- title of the document -->
+        <documentTitle>IBM - Sistema Adm Equipo  - Test Report</documentTitle>
+        
+        <!-- report name - displayed at top-nav -->
+
+        <reportName>Functional Automation Report</reportName>
+
+        
+        <!-- location of charts in the test view -->
+        <!-- top, bottom -->
+        <testViewChartLocation>bottom</testViewChartLocation>
+        
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                    $(".brand-logo").html("<img src='data:image/png;base64,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' height='20px'/>");
+                });
+				//$(".report-name").html("<img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAAAZCAYAAADOtSsxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAVwSURBVGhD7ZlLUiQ3EIabngvgAzg8nGBg6417TmDmBGZ2XjhiYOPtwNL2Ak/Ye2btDcwJBp8AfALwBQy+APj7s36Jeqiqqxo/CEd/ERmSUimVOiWlJNiYrZnMPTg72wBnV2LudM2/wN3d3afOrnkM2gEJq5aC839G/kA+t2rNqtj3gVWDyPk2vyd/g6x3wmOwLwOresHZP9k0oPydq9asin0ZWFXkv3D+843ZxjHy8dns2a51/zvsz8CqDgXnf++qJjjrcD6b3ydB9byq6WUTu6tkL2db3+7rBtWyvjKMcRvZdPFJEx41VjUY7XzoXEO1gp0tgmP3SPoc+5lTIWf2OpRxbSKHDO4C0WRdIDce8CnJdhgWkE3CqieDnM/T4BsXNdYf5vP5ty52ae8ACeo+BzdWv6S+A2Db9TfoT6zrwKC25fjw4ADYFPtwdWDVk4Dxfu1hBZR7V36mNAF9zqNur2Bbn4BEb+hhXLsMLFb6GDRRbppxVWDVk4Eh/aJxjXI+8I7eOETeupy5m91tkVxXpQocLmc0QsP97P4ceemiHJ/Czi3SaM+4FHau2KI5NFE+o/yOrGxVvyB9gy5PIrpztnH6RkyAs50/Bbj9gvQLUn0nxoDZB+S98gls6r/lmvpb63ZJX/DNV1VVRavvW+x/I70kPVN9gvq99rd6Ke0ASXsX6FbTY5d3AOX6DrmyOsOqOGZwgXeBzpMO6De18sPwgewslwOrAoo6U3p3l/vMk09ZZ01Afp9kL7VXarM0njz2NtSp395dP0jfBEiozp3K0SWbsROgAcZojX6Qq4pgoh+dnUk+LwirAquk06pdSr0f8vUJaEy4vi0bsqXF0EH2JJMnofTHuBw2cG6EJq1+8tp+CYWXqdRXsLbvkYtFFA4IAZ+QDaF8EBU90OdXziqv37BFG4WnLcqXUVFRfJ9gGuPT2BCFjxgf+bepTlA+R34ke0T64CvCKuXi2TlIewe0ynGX1yqv1Z+SXtTKo3YAK0RbPCBfOrhH424Cq9T/ifq17FsdYLZXWWciDGGXd4BQHyT186mxq6hXGMr1gvJhVD6QJ9jlQToTQLvOQyvlJdQvSFeZgHr8P7V6JdxNYFUD1HGYI4rpx0j7XOhMgG0azkVXXzRXJI36BHUfK6vg0OpRE1AKQQovupUEODiHHm47Ou3Pq9Jkfncq6uHsb4Pfs8AZWsWafC2ME0LDvsJDGAwTtyDnE7rtJHRbK4Ze9L86qzG8cHYUxX/IcAVVDMzxLcEE5ImZCoNsx8ulB5Yciih8SAb/tmSbU/rWFTAcTlnxXDG7cU3sobSw8sTR55/OdtB3nBX1Nkvp+4+YOmwcko9c/aLRlkEPHljUh0PJyk6SD8IS2OqwTI7XobtDeUvvB9IP0q9APrzp80tnS9R3Sv3AX0rfBGgXyOF51T5m9QucoEl9XZWirHChGNwJD+i08o9rDlXb3ocN9dvYPlyZuTEheiDFyix9Ywy0z6GFvP580jjcBX1rx+XdWW8zht4JgFsm4WUSyo9Z/QGDe8+Acz8euP5DpLitR9S+J0WhpL6V3yGdkDhAngw7/01VmgbfPKN9XtGUdaBrrBESyestk3eybaf5qXALWgp2k29BCTmEgS992CT8Ixu4KnBZZ0pG/asdoitp+wYkYnKpq9+Cig9DqhoPyD78ncmXi6Ed8I/AKtIDa4fs4EOMH3ONHGA7+AAT6hNbPY4CygpJuv0sEE3OlN3TgPZquzPUB3UKd6+RyVFizgpWnKzLUjgPivatvgZhsLov64cdIBGaLHKkfswOzs9OXYYmyn2pD03IJaJzTIfwK+tCqhbjof0l/etFHf1L576UP6Je3xhz02oxm/0F2w3OlcrskS4AAAAASUVORK5CYII=' height='20px'/>");
+				
+            ]]>
+        </scripts>
+        
+        <!-- custom styles -->
+        <styles>
+            <![CDATA[
+                nav{
+                background:#F52717;
+                }
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>
